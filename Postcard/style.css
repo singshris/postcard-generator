@@ -1,0 +1,132 @@
+html, body, * {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F7F7FF;
+  height: 90vh;
+}
+
+@font-face {
+  font-family: 'junicode'; 
+  src: url('/typeface/junicode-boldcondensed-webfont.woff');
+}
+
+@font-face {
+  font-family: 'junicode-regular';
+  src: url('/typeface/junicode-regularcondensed-webfont.woff');
+}
+
+canvas {
+padding-left: 0;
+padding-right: 0;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+display: block;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+  text-align: center; 
+  font-size: 2.2em;
+  font-family: 'junicode';
+  margin:none
+}
+
+h4{
+  font-family: 'junicode';
+  font-size: 1.2em;
+  line-height: 1.1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.controlsContainer{
+  padding-top: 2em;
+  height: 3em;
+  bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  align-items:center;
+}
+
+.myButton {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #000000;
+  border-style: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  color: #F7F7FF;
+  /* border-radius: 100%; */
+/*   padding: 20px, 25px; */
+ 
+}
+
+
+.myButton:hover {
+  transition-duration: 0.5s;
+  background-color: #F7F7FF;
+  color: #020202 ;
+  border: 2px solid black;
+}
+
+.saveButton{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 150px;
+  height: 45px;
+  border-style: none;
+  background-color: #020202 ;
+  color: #F7F7FF;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  transition-duration: 0.5s;
+  background-color: #F7F7FF;
+  color: #020202 ;
+  border: 2px solid black;
+}
+
+.dropdown{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 150px;
+  height: 45px;
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: #F7F7FF;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Instruction{
+  font-family: 'junicode'; 
+  font-size: 18px;
+  color: rgb(7, 7, 7);
+}
+
+.myRadio{
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 11px;
+  background-color:#F7F7FF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 2px solid black;
+}
+
+.myRadio input[type="radio"] {
+  margin-left: 5px; /* Adjust the spacing as needed */
+}
